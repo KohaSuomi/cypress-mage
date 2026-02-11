@@ -22,7 +22,7 @@ Get your token from: https://github.com/settings/tokens
 
 **Note:** GitHub Models API is the default provider.
 
-### Option 2: Using OpenAI API
+### Option 2: Using OpenAI API (Not tested yet)
 ```bash
 export OPENAI_API_KEY="sk-your-openai-api-key"
 ```

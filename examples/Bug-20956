@@ -1,0 +1,7 @@
+1. Go to a staff interface
+2. Go to page http://localhost:8081/cgi-bin/koha/members/member-flags.pl?member=<borrowernumber>
+3. Select checkbox inside parent-flag-catalogue on the member-flags.tt page and save the the permission
+---
+4. Go to /cgi-bin/koha/tools/viewlog.pl?do_it=1&modules=MEMBERS&object=<borrowernumber>&src=circ
+5. Find table #logst from viewlog.tt
+6. Verify that info column has value {catalogue: 1}
